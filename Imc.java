@@ -12,8 +12,7 @@ public class Imc extends javax.swing.JFrame {
     }
 
    
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    @SuppressWarnings("unchecked")                        
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -117,7 +116,7 @@ public class Imc extends javax.swing.JFrame {
         float peso = Float.parseFloat(Peso.getText());
         float altura1= altura * altura;
         float result = peso / altura1;
-        Imc.setText(Float.toString(result));        // TODO add your handling code here:
+        Imc.setText(Float.toString(result));        
     }                                        
 
     
